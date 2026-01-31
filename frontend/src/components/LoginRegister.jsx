@@ -31,7 +31,7 @@ export default function Auth() {
           <input
             placeholder="Name"
             className="input"
-            onChange={(e) => setForm({ ...form, name: e.target.value })}
+            onChange={(e) => setForm({ ...form, username: e.target.value })}
           />
         )}
 
